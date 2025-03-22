@@ -1,0 +1,141 @@
+/*表格*/
+
+.table-container {
+    border-spacing: 0px;
+    width: 100vw;
+    margin: 0px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .reservation-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+    text-align: left;
+    border-radius: 10px;
+  }
+  
+  .reservation-table thead {
+    background-color: #f8f8f8;
+    font-weight: bold;
+  }
+  
+  .reservation-table th {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .reservation-table tbody tr {
+    border-bottom: 1px solid #ddd;
+    background-color: white;
+  }
+  
+  .reservation-table tbody tr:nth-child(even) {
+    background-color: #fafafa;
+  }
+  
+  .reservation-table tbody tr:hover {
+    background-color: #f5f5f5;
+    transition: 0.3s;
+  }
+  
+  .reservation-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    color: #555;
+  }
+  
+ /* 搜尋欄 */
+.search-input {
+  width: 90%;
+  max-width: 400px;
+  padding: 10px;
+  margin: 0;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  background-color: white;
+  text-align: center;
+  transition: 0.2s;
+  color: black;
+}
+.search-input:focus {
+  border-color: black;
+  box-shadow: none;
+}
+
+/* 紅底白字按鈕 */
+.delete-btn {
+  margin: 10px auto;
+  display: block;
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.delete-btn:hover {
+  background-color: darkred;
+}
+
+/* 刪除訊息 */
+.delete-msg {
+  text-align: center;
+  color: green;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+/* 表格 */
+.table-container {
+  border-spacing: 0;
+  width: 100vw;
+  margin: 0;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.reservation-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 16px;
+  text-align: left;
+  border-radius: 10px;
+}
+.reservation-table thead {
+  background-color: #f8f8f8;
+  font-weight: bold;
+}
+.reservation-table th {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 2px solid #ddd;
+  font-weight: 600;
+  color: #333;
+}
+.reservation-table tbody tr {
+  border-bottom: 1px solid #ddd;
+  background-color: white;
+}
+.reservation-table tbody tr:nth-child(even) {
+  background-color: #fafafa;
+}
+.reservation-table tbody tr:hover {
+  background-color: #f5f5f5;
+  transition: 0.3s;
+}
+.reservation-table td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  color: #555;
+}
